@@ -1,0 +1,1 @@
+<h1>Archive doctor page</h1>

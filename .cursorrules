@@ -1,0 +1,150 @@
+overall project overview:
+Grass Ocean Trading  started as a small shop in 2010 and quickly expanded to offer customers easy access to their multiple stores in the UAE, providing them with a wide range of floorings, including our in-house brand for the entire market retail of the Middle East. As a Carpet Company in Qatar, we import high-quality products from countries such as India, Turkey, China, and Europe which follow strict international quality protocols. In addition to the wholesale and retail vertical, we have even started exporting our products to countries like Oman, Saudi Arabia, Africa, Dubai, and the rest of the GCC. Thus, making us known all over the world!
+
+What is Grass Ocean Trading Carpets
+Looking for a way to update your habitat? The flooring could be the best solution. Floor Carpet Qatar and Dubai is becoming increasingly popular for good reasons like it is versatile, long-lasting, and inexpensive! This adaptable material may be utilised in a variety of ways to create an appearance that is distinctive to your home, workspace, or anywhere. We have emerged as a homeowner-favourite firm since we entered the flooring market in 2010. We offer bespoke modern flooring designs that you prefer because of our modern quarries, advanced technology, and dependable craftsmen. We also offer a comprehensive range of flooring solutions with installation services in a variety of forms, sizes, finishes, and edges to meet your design and aesthetic requirements. Every product we sell is of high quality, long-lasting, and resistant to weather and misuse. You can be confident that the natural stone kind you select will age gracefully over time without requiring you to invest much time, effort, or money in its upkeep. We will look at some of the most creative flooring designs that will astound you. We have the appropriate solution for you whether you want to upgrade your kitchen, bathroom, or workspace. So do not put it off any longer start browsing your ideas with us and get inspired, lets transform ideas into flooring works.
+
+Here is the product list:
+
+Artificial Grass
+Vinyl Flooring
+Gym & Sports Flooring
+Deck Flooring
+SPC Flooring
+LVT Flooring
+Laminate Flooring
+Carpet Flooring
+Wood Flooring
+Rubber Flooring
+Wall Cladding
+PVC Flooring
+
+------------------------------------
+inside the post type I have extra three taxonomy like default category and custom taxonomy using ACF plugin like services, projects, and products
+
+My technology stack:
+- WordPress
+- PHP
+- CSS
+- Tailwind CSS
+- JavaScript
+- jQuery
+- Font Awesome 6
+- HTML
+
+Global settings:
+- heading, paragraph, button all color: green;
+- font: satoshi;
+- heading size: 4xl;
+- paragraph size: base;
+- section class: py-16;
+- container class: container mx-auto px-4 sm:px-6 lg:px-8;
+- button class: inline-flex items-center px-6 py-3 border border-transparent text-lg font-medium rounded-full text-white bg-green-700 hover:bg-green-800 transition-bg duration-300 shadow hover:shadow-lg;
+- For the arrow right icon use this icon: <svg class="w-4 h-4 text-gray-400" stroke="currentColor" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+-----------------------------------------
+
+My current project structure:
+GrassOcean
+ ┣ assets
+ ┃ ┣ css
+ ┃ ┃ ┣ grass-ocean.css
+ ┃ ┃ ┣ medical-hero.css
+ ┃ ┃ ┣ responsive-mh.css
+ ┃ ┃ ┣ responsive.css
+ ┃ ┃ ┣ style.css
+ ┃ ┃ ┗ tailwind.css
+ ┃ ┣ images
+ ┃ ┃ ┣ doctor
+ ┃ ┃ ┃ ┣ default-female.png
+ ┃ ┃ ┃ ┗ default-male.png
+ ┃ ┃ ┣ icons
+ ┃ ┃ ┃ ┣ android-logo.png
+ ┃ ┃ ┃ ┣ android.png
+ ┃ ┃ ┃ ┣ app-store.png
+ ┃ ┃ ┃ ┣ apple-logo.png
+ ┃ ┃ ┃ ┣ apple-store.png
+ ┃ ┃ ┃ ┣ black-menu.svg
+ ┃ ┃ ┃ ┣ cancel.svg
+ ┃ ┃ ┃ ┣ clock.svg
+ ┃ ┃ ┃ ┣ close.png
+ ┃ ┃ ┃ ┣ down-arrow.png
+ ┃ ┃ ┃ ┣ down-arrow.svg
+ ┃ ┃ ┃ ┣ home.svg
+ ┃ ┃ ┃ ┣ loupe.svg
+ ┃ ┃ ┃ ┣ menu.svg
+ ┃ ┃ ┃ ┣ minus.png
+ ┃ ┃ ┃ ┣ play-store.png
+ ┃ ┃ ┃ ┣ playstore.png
+ ┃ ┃ ┃ ┣ redo.svg
+ ┃ ┃ ┃ ┣ right-arrow-double.svg
+ ┃ ┃ ┃ ┣ right-arrow.png
+ ┃ ┃ ┃ ┣ right-arrow.svg
+ ┃ ┃ ┃ ┣ search.svg
+ ┃ ┃ ┃ ┣ trend-up.svg
+ ┃ ┃ ┃ ┣ trend.png
+ ┃ ┃ ┃ ┗ website.png
+ ┃ ┃ ┣ ambulance-placeholder.png
+ ┃ ┃ ┣ error.jpg
+ ┃ ┃ ┣ favicon.png
+ ┃ ┃ ┣ map-placeholder.png
+ ┃ ┃ ┗ not-found.png
+ ┃ ┗ js
+ ┃ ┃ ┣ app.js
+ ┃ ┃ ┣ doctor-pagination.js
+ ┃ ┃ ┣ doctors-filter.js
+ ┃ ┃ ┣ hero-search.js
+ ┃ ┃ ┣ hospital-filter.js
+ ┃ ┃ ┣ medicine-pagination.js
+ ┃ ┃ ┗ medicines-filter.js
+ ┣ components
+ ┃ ┣ sidebar
+ ┃ ┃ ┣ app-sidebar.php
+ ┃ ┃ ┣ bangladesh-map.php
+ ┃ ┃ ┗ website-sidebar.php
+ ┃ ┗ content-setting-section.php
+ ┣ function-utils
+ ┃ ┣ author-avatar.php
+ ┃ ┣ author-socialmedia.php
+ ┃ ┣ short-function.php
+ ┃ ┗ sidebar-utils.php
+ ┣ node_modules
+ ┃ ┣ .bin
+ ┃ ┃ ┣ autoprefixer
+ ┃ ┃ ┃ ┣ visit.d.ts
+ ┃ ┃ ┃ ┗ continue others files...
+ ┣ sections
+ ┃ ┣ call-to-action-section.php
+ ┃ ┣ featured-blog-section.php
+ ┃ ┣ featured-faq-section.php
+ ┃ ┗ hero-section.php
+ ┣ templates
+ ┃ ┣ blog-template.php
+ ┃ ┣ faq-template.php
+ ┃ ┗ tools-template.php
+ ┣ utils
+ ┣ .cursorrules
+ ┣ 404.php
+ ┣ archive-doctors.php
+ ┣ author-list-template.php
+ ┣ author.php
+ ┣ category.php
+ ┣ class-tailwind-nav-walker.php
+ ┣ footer.php
+ ┣ front-page.php
+ ┣ functions.php
+ ┣ header.php
+ ┣ home.php
+ ┣ index.php
+ ┣ package-lock.json
+ ┣ package.json
+ ┣ page.php
+ ┣ postcss.config.js
+ ┣ screenshot.png
+ ┣ search.php
+ ┣ searchform.php
+ ┣ sidebar.php
+ ┣ single-doctors.php
+ ┣ single.php
+ ┣ style.css
+ ┣ tailwind.config.js
+ ┗ taxonomy.php

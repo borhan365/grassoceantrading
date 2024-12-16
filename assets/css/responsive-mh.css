@@ -1,0 +1,1290 @@
+@media only screen and (min-width: 768px) {
+  .desktop-hide {
+    display: none;
+  }
+  .category-name-list {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  :root {
+    --heading-one: 25px;
+    --heading-two: 20px;
+    --heading-three: 18px;
+    --heading-four: 16px;
+    --heading-five: 15px;
+    --heading-six: 14px;
+    --title-size: 17px;
+  }
+  /* For mobile phones: */
+  .mobile-hide {
+    display: none;
+  }
+  .container {
+    max-width: 94%;
+    margin: 0px auto;
+  }
+  .flex {
+    flex-direction: column;
+  }
+
+  /* HEADER */
+  .header-container {
+    display: none;
+  }
+  .hero-wrapper {
+    height: 100%;
+    padding: 50px 15px;
+    padding-bottom: 20px;
+  }
+  .hero-content-text {
+    text-align: center;
+  }
+  .hero-search-wrapper {
+    width: 90%;
+    bottom: -50px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 13px;
+  }
+  .featured-city-title-wrapper {
+    text-align: center;
+    margin-top: 17px;
+    margin-bottom: 0px;
+    max-width: 95%;
+    margin: auto;
+  }
+  .featured-city-title-wrapper h2 {
+    font-size: 25px;
+  }
+  .featured-city-title-wrapper p {
+    font-size: 14px;
+  }
+  .featured-city-title-wrapper .underline {
+    margin: 15px auto;
+  }
+  .faq-title h3 {
+    line-height: 25px;
+  }
+  .featured-city-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 15px;
+    margin: 20px 0px;
+  }
+  .featured-city-item {
+    height: 280px;
+    border-radius: 3px;
+  }
+  .specialist-section {
+    padding: 20px 0px;
+  }
+  .specialist-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+  }
+  .specialist-wrapper li {
+    font-size: 14px;
+    border-radius: 3px;
+    padding: 10px 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  .doctor-name-tag {
+    font-size: 16px;
+  }
+  .specialist-section {
+    margin-bottom: unset;
+  }
+  .featured-doctor-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    margin-top: 10px;
+    row-gap: 10px;
+    width: 100%;
+  }
+  .hospital-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 5px;
+  }
+  .hospital-wrapper li {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  .hospital-section {
+    margin-bottom: 0px;
+    padding: 30px 0px;
+  }
+  .featured-doctor-section {
+    padding: 15px 0px;
+  }
+  .footer-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 15px;
+  }
+  .footer-item ul {
+    margin-top: 10px;
+  }
+  footer {
+    padding: 25px 0px;
+  }
+  .footer-item ul li a {
+    font-size: var(--mini-size);
+  }
+  .footer-logo {
+    width: 120px;
+  }
+  .featured-city-content h2 {
+    padding: 0px;
+    font-size: 16px;
+  }
+  .featured-city-content {
+    padding: 10px;
+  }
+  .featured-city-content li {
+    margin-bottom: 4px;
+    font-size: 14px;
+  }
+  .profile-banner no-banner {
+    height: 120px;
+    width: 100%;
+  }
+  .wp-block-details summary {
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .wp-block-details p {
+    padding-left: 0px;
+    margin-top: 6px;
+  }
+  .wp-block-details {
+    padding: 15px;
+  }
+  p {
+    font-size: var(--mini-size);
+    line-height: var(--p-line-height-mobile);
+  }
+  .hospital-metabox-thumb {
+    width: 135px;
+    /* margin: auto; */
+    height: 135px;
+    /* border: 2px solid var(--seconderyColor); */
+    margin-top: -45px;
+    /* margin-left: 12px; */
+    /* margin: auto; */
+    /* text-align: center; */
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .specialist-content-wrapper ul {
+    grid-template-columns: 1fr;
+  }
+  .medicine-company-thumb {
+    width: 100px;
+    height: auto;
+    border: unset;
+    margin-top: -50px;
+    margin-left: 12px;
+    background: white;
+    border-radius: 3px;
+    padding: 5px;
+  }
+  .hospital-details-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    padding-bottom: 15px;
+    grid-gap: 15px;
+    margin-top: -70px;
+  }
+  .hospital-details-content {
+    padding: unset;
+  }
+  .hospital-service-short-overview {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    padding: 10px 0px;
+  }
+  .hospital-details-service-wrapper {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .hospital-details-video {
+    display: none;
+  }
+  .doctor-meta-box,
+  .hospital-meta-box {
+    padding-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    padding: 15px;
+    padding-top: 10px;
+  }
+  .group-block {
+    padding: 15px;
+  }
+  .hospital-review-count {
+    margin-bottom: 0px;
+    font-size: 13px;
+    line-height: 22px;
+  }
+  .hospital-details-doctor-wrapper {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .hospital-details-service-wrapper ul li {
+    font-size: var(--tiny-size);
+    border-radius: 30px;
+    padding: 3px 10px !important;
+    padding-left: unset !important;
+  }
+  .single-title-wrapper {
+    padding-bottom: 10px !important;
+    margin-bottom: 10px;
+  }
+  .specialist-wrapper li img {
+    border-radius: 3px;
+  }
+  .hospital-details-services {
+    padding: 15px;
+    margin-top: 20px;
+  }
+  .hospital-metabox-content h1 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    display: unset;
+  }
+  .hospital-service-overview-thumb {
+    width: 25px;
+    height: auto;
+  }
+  .hospital-service-overview-item h4 {
+    font-weight: 400;
+    font-size: 11px;
+  }
+  .hospital-service-overview-item {
+    height: 70px;
+  }
+  .hospital-details-content-wrapper {
+    margin-bottom: unset;
+  }
+  .hospital-details-content-wrapper p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .footer-item p {
+    font-size: var(--mini-size);
+    line-height: 23px;
+  }
+  .featured-doctor-social {
+    display: none;
+  }
+  .feauted-doctor-item {
+    padding: 10px;
+    flex-direction: row;
+    grid-gap: 5px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+  }
+  .hospital-details {
+    font-size: var(--tiny-size);
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1px;
+  }
+  .hospital-details p {
+    line-height: 20px;
+  }
+  .featured-docotor-thumb {
+    width: 80px;
+    height: 85px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    border-radius: 3px !important;
+    border: unset;
+  }
+  .featured-docotor-thumb img {
+    object-fit: cover;
+    border-radius: 3px;
+  }
+  .label-value-wrap span {
+    font-weight: 500;
+    font-size: var(--tiny-size);
+  }
+  .featured-doctor-content li {
+    margin-bottom: 0px;
+    font-size: var(--mini-size);
+    line-height: var(--p-line-height-mobile);
+  }
+  .doctor-details-excerpt li {
+    font-size: var(--mini-size);
+  }
+  .doctor-details-excerpt p {
+    font-size: var(--mini-size);
+  }
+  .doctor-details-excerpt ul {
+    grid-gap: 5px;
+  }
+  .doctor-chamber-hospital-logo {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 5px;
+    border: 5px solid white;
+  }
+  .featured-hospital-sponsored-item .doctor-chamber-hospital-logo {
+    margin-bottom: 5px;
+  }
+  .featured-hospital-sponsored-item .hospital-details {
+    grid-gap: 2px;
+  }
+  .taxonomy-sidebar {
+    position: unset;
+    margin-bottom: 0px;
+  }
+  .excerpt-section {
+    padding-top: 10px;
+  }
+  .taxonomy-sidebar.group-block {
+    padding: unset;
+  }
+  .sidebar-ads {
+    border: unset;
+  }
+  .doctor-chamber-item {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    grid-gap: 10px;
+    background: var(--white);
+    padding: 15px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: 1px solid #d3d3d35e;
+    overflow: hidden;
+  }
+  .taxonomoy-item.group-block {
+    padding: unset;
+  }
+  .doctor-details-chamber-container h2 {
+    margin: 10px 0px;
+    font-size: 18px;
+  }
+  .jobs-item-details ul {
+    grid-gap: 2px;
+  }
+  .visiting-time-badge {
+    padding: 5px 10px;
+    font-size: 11px;
+  }
+  .doctor-chamber-hospital-details li {
+    font-size: 13px;
+    line-height: 23px;
+  }
+  .add-new-form-wrapper {
+    padding: 90px 0px;
+    width: 100%;
+    margin: auto;
+    background: white;
+    padding: 5px;
+  }
+  .add-new-form-section {
+    background: var(--seconderyColor);
+    padding: 20px 0px;
+  }
+  .add-new-form-tab button {
+    padding: 7px 7px;
+    font-size: 12px;
+  }
+  .form-group label {
+    font-size: 12px;
+  }
+  .form-group-checkbox-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    grid-row-gap: 11px;
+    width: 100%;
+    margin: 10px 0px;
+  }
+  .form-title {
+    margin-top: 22px;
+  }
+  .online-doctor-and-pharmacy {
+    grid-gap: 5px;
+    flex-direction: column;
+    margin: 10px 0px;
+  }
+  .single-district-item {
+    height: 180px;
+  }
+  .single-content {
+    padding: 0px;
+  }
+  .single-meta h1 {
+    font-size: 30px;
+    padding: 10px;
+  }
+  .single-meta {
+    margin-top: 5px;
+  }
+  .review-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 10px;
+    grid-gap: 15px;
+  }
+  .review-item:last-child {
+    display: none;
+  }
+  .ambulance-thumb {
+    position: unset;
+    width: 100%;
+  }
+  .ambulance-item-wrap {
+    width: 100%;
+  }
+  .ambulance-section {
+    padding-bottom: 0px;
+    padding-top: 30px;
+  }
+
+  .ambulance-wrapper {
+    flex-direction: column-reverse;
+    grid-gap: 10px;
+    padding-bottom: 20px;
+  }
+  .product-details-section {
+    padding: 15px 0px;
+  }
+  .product-description-wrapper {
+    flex-direction: column-reverse;
+  }
+  .product-description-sidebar {
+    width: 100%;
+  }
+  .product-details-wrapper {
+    flex-direction: column;
+  }
+  .product-details-thumb {
+    height: 250px;
+  }
+  .product-title {
+    font-size: 25px;
+  }
+  .product-buy-now-img {
+    width: 70px;
+    height: 30px;
+  }
+  .product-description-section {
+    padding: 15px 0px;
+  }
+  .product-description-wrapper h3 {
+    margin-bottom: 8px;
+  }
+  .product-price {
+    padding: 5px 0px;
+  }
+  .category-filter-page {
+    flex-direction: column;
+  }
+  .category-sidebar ul.category-ul {
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    right: -300px;
+    z-index: 999999;
+    background: white;
+    padding: 10px;
+    overflow-y: auto;
+    box-shadow: 0px 0px 10px 1px lightgray;
+    visibility: hidden;
+    opacity: 0;
+    transition: right 0.3s ease;
+  }
+  .category-ul.active {
+    visibility: visible !important;
+    opacity: 1 !important;
+    right: 0px !important;
+  }
+  .category-sidebar-item {
+    margin-bottom: 5px;
+  }
+  .category-filter-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .grid-3-10 {
+    grid-template-columns: 1fr;
+  }
+  .category-page {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .column-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .category-panel h2 {
+    font-size: 12px;
+  }
+  .featured-doctor-content {
+    /* width: 100%; */
+  }
+  .call-to-action-wrapper {
+    overflow-x: auto;
+    padding-bottom: 10px;
+    margin-top: 10px;
+  }
+  .breadcrumbs {
+    padding: 0px 0px;
+  }
+  .breadcrumbs ul li img {
+    width: 14px;
+  }
+  .breadcrumbs ul li a {
+    font-size: 13px;
+  }
+  .category-items-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .create-new-wrap {
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+  .jobs-item {
+    padding: 10px;
+    margin-bottom: 5px;
+    flex-direction: column;
+    align-items: flex-start;
+    grid-gap: 5px;
+    flex-direction: column-reverse;
+  }
+  .jobs-item-logo {
+    margin-right: unset;
+    max-width: 100px;
+  }
+  .doctor-chamber-hospital-details h2 {
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  .review-thumb {
+    width: 110px;
+    height: 100px;
+  }
+  .category-filter-product-review-item {
+    display: flex;
+    justify-content: flex-start;
+    grid-gap: 10px;
+  }
+  .review-content h2 {
+    font-size: 14px;
+  }
+  .review-read-more {
+    display: none;
+  }
+  .product-review-badge {
+    font-size: 13px;
+  }
+  .question-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .question-not-found p {
+    text-align: center;
+    line-height: 19px;
+  }
+  .question-header-button .question-btn {
+    padding: 6px 10px;
+    font-size: 14px;
+  }
+  .question-not-found {
+    padding: 20px;
+    padding-bottom: 0px;
+  }
+  .question-header-content p {
+    margin-bottom: 5px;
+  }
+  .review-overview {
+    margin-bottom: 13px;
+  }
+  .accordion {
+    padding: 10px 0px;
+    font-size: 16px;
+  }
+  .panel p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .call-to-action-content h2 {
+    font-size: 10px;
+  }
+  .review-section {
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .call-to-action-section {
+    padding: 20px 0px;
+  }
+  .table-wrap {
+    margin-top: 10px;
+  }
+  .section-head h2 {
+    padding: 5px 10px;
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .book-ambulance-button {
+    padding: 7px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+  .pagination-wrapper {
+    flex-direction: column;
+    grid-gap: 10px;
+  }
+  .category-description {
+    padding: 10px;
+  }
+  .category-section {
+    padding-bottom: 0px;
+  }
+  .not-found-wrap {
+    width: 100%;
+    max-width: 95%;
+  }
+  .login-section {
+    padding: 30px 0px;
+  }
+  .login-wrap {
+    max-width: 97%;
+  }
+  .login-wrap {
+    padding: 10px;
+  }
+  .form-group button {
+    height: 45px;
+  }
+  .doctor-chamber-hospital-details ul {
+    grid-gap: 0px;
+  }
+  .breadcrumbs ul li:last-child {
+    font-size: 14px;
+  }
+  /* responsive */
+  .specialist-wrapper ul {
+    grid-template-columns: repeat(1, 1fr) !important;
+    grid-gap: 0px;
+  }
+  .specialist-wrapper i {
+    width: 15px;
+    height: 15px;
+    font-size: 7px;
+  }
+  .featured-city-hospitals {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 15px;
+  }
+  .hospital-wrapper ul {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .footer-suggest-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    padding-bottom: 20px;
+  }
+  .taxonomy-description h1 {
+    display: unset;
+    line-height: 40px;
+    font-size: var(--heading-size);
+    font-weight: 700;
+    margin-top: 10px !important;
+    margin-bottom: 15px;
+  }
+  .taxonomy-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+  .line-wrap,
+  .label-value-wrap,
+  .line-wrap ul {
+    align-items: center;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    grid-gap: 5px;
+    row-gap: unset;
+  }
+  .footer-item h3 {
+    font-size: var(--p-size);
+  }
+  .specialist-title-wrapper {
+    padding-bottom: unset;
+  }
+  .taxonomy-section {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background: var(--white);
+  }
+  .taxonomy-description.group-block {
+    padding: 20px 0px;
+  }
+  .category-breadcrumb {
+    margin-bottom: 5px;
+  }
+  .taxonomy-excerpt-wrap {
+    margin-top: 10px;
+  }
+  .common-description h2 {
+    margin-top: 15px;
+  }
+  .header-message-section.active {
+    display: none;
+  }
+  .navbar-section {
+    display: none;
+  }
+  .featured-hospital-sponsored-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 5px;
+  }
+
+  .latest-pro-item {
+    align-items: flex-start;
+    padding: 10px;
+  }
+  .degree-wrapper ul {
+    row-gap: 10px;
+  }
+  .degree-wrapper ul li {
+    border: 1px dotted;
+    padding: 10px;
+  }
+  .blog-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+    margin-top: 20px;
+  }
+  .category-hospital-table-title {
+    grid-gap: 0px;
+    flex-direction: column;
+  }
+  .message-wrap {
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 20px;
+  }
+  .message-wrap p {
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+  }
+  .message-icon-and-text-wrap {
+    align-items: center;
+    flex-direction: column;
+  }
+  .message-wrap button {
+    width: 100%;
+  }
+  .specialist-wise-doctors-wrapper {
+    grid-template-columns: 1fr;
+    grid-gap: 0px;
+  }
+  .specialist-wise-doctors-wrapper .feauted-doctor-item {
+    padding: 10px 0px;
+  }
+  .group-block h2 {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .resume-section ul {
+    margin-left: unset;
+  }
+  .full-page-description {
+    background: unset;
+    padding: unset;
+  }
+  .degree-wrapper.hospital-types ul {
+    grid-template-columns: 1fr;
+  }
+  .degree-wrapper ul li a {
+    font-size: var(--p-size);
+  }
+  .blog-item {
+    border-radius: unset;
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    grid-gap: 15px;
+    background: unset;
+    padding: unset;
+    border-bottom: 1px solid #d3d3d359;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+  }
+  .blog-item:last-child {
+    padding-bottom: unset;
+    border-bottom: unset;
+    margin-bottom: unset;
+  }
+  .hero-content-wrapper h1 {
+    font-size: 37px;
+    color: var(--heading-color);
+    /* margin: 10px 0px; */
+    margin-bottom: 15px;
+    word-wrap: break-word;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .sub-title {
+    text-align: center;
+    font-size: var(--mini-size);
+    background: unset;
+    padding: unset;
+    font-weight: 600;
+  }
+  .hero-content-wrapper p {
+    text-align: left;
+  }
+  .single-content-area li {
+    margin-bottom: 10px;
+    line-height: 27px;
+  }
+  .wp-block-table {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+  thead,
+  tbody,
+  tr,
+  td,
+  th {
+    display: block;
+  }
+  .single-content-area {
+    margin-top: 10px;
+    padding: 10px;
+  }
+  .single-content-area h2,
+  .single-content-area h3,
+  .single-content-area h4,
+  .single-content-area h5,
+  .single-content-area h6 {
+    text-transform: capitalize;
+    margin: 14px 0px;
+    font-weight: 400;
+    color: var(--black);
+    line-height: 27px !important;
+  }
+  .single-content-area h2 strong,
+  .single-content-area h3 strong,
+  .single-content-area h4 strong,
+  .single-content-area h5 strong,
+  .single-content-area h6 strong {
+    font-weight: 600;
+  }
+  .single-content-area h2 {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .single-content-area h3 {
+    font-size: 17px;
+    line-height: 20px;
+  }
+  .single-content-area h4 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .single-content-area h5 {
+    font-size: 15px;
+  }
+  .single-content-area h6 {
+    font-size: 14px;
+  }
+  .single-content-area p {
+    font-size: var(--p-size);
+    line-height: var(--p-line-height-mobile);
+    margin-bottom: 10px;
+  }
+  .single-content-area blockquote {
+    padding: 15px 10px;
+  }
+  .single-content-area blockquote p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+  }
+  wp-block-quote cite {
+    font-style: normal;
+  }
+  .wp-block-table table {
+    width: 100%;
+    overflow-y: scroll;
+  }
+  .category-hospital-table tr {
+    padding: unset;
+  }
+  .category-hospital-table {
+    padding: unset;
+    padding-bottom: 10px;
+    overflow: hidden;
+  }
+  .featured-hospital-sponsored-item {
+    padding: 15px;
+  }
+  .single-content-area ul,
+  .single-content-area ol {
+    padding-left: unset !important;
+    margin-left: unset !important;
+  }
+
+  .quick-link-sidebar {
+    position: unset;
+    margin-top: 15px;
+    padding: 10px !important;
+  }
+
+  .single-content-area p em {
+    font-size: 14px;
+    line-height: 20px !important;
+  }
+  .taxonomy-description-section {
+    padding: 0px;
+  }
+  .hospital-details-section .container,
+  .doctor-details-section .container {
+    max-width: 96%;
+  }
+  .gender-location-wrap {
+    flex-direction: column;
+    align-items: flex-start;
+    grid-gap: 3px;
+  }
+  .template-related-section {
+    padding-top: 30px;
+  }
+  .author-list-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .author-list-wrapper li {
+    padding: 20px;
+  }
+  .time-ago {
+    justify-content: flex-start;
+    margin-top: 15px;
+  }
+  .trending-location-articles .hospital-specialists-list {
+    grid-gap: 10px;
+  }
+  .trending-location-articles {
+    border: 1px solid #f3ebe1;
+    border-radius: 3px;
+    background: var(--background-one);
+  }
+  .taxonomy.taxonomy-description .hospital-specialists-section {
+    padding-top: 5px;
+  }
+  .single-content-area iframe {
+    height: 190px;
+  }
+  .contentBox {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+    background: unset;
+    border-radius: 3px;
+    padding: 0px;
+  }
+  .author-body-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .contentImg {
+    width: 100%;
+    height: 200px;
+  }
+  .author-main-profile-section {
+    padding: 30px 0px;
+  }
+  .filter-section {
+    display: none;
+  }
+  .single-item-breadcrumb {
+    display: none;
+  }
+  .time-ago.relative {
+    margin-top: 0px;
+  }
+  .featured-doctor-content h3 {
+    line-height: 20px !important;
+    font-weight: 500;
+    font-size: 14px !important;
+    margin-bottom: 2px;
+  }
+  .featured-specialist-item {
+    padding: 15px;
+  }
+  .author-profile-wrap {
+    grid-gap: 10px;
+    flex-direction: column;
+  }
+  .autor_profile figure img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px #d3d3d370;
+  }
+  .author_name h2 {
+    font-size: var(--heading-two);
+  }
+  .author_name h4 {
+    font-weight: 400;
+    font-size: var(--mini-size);
+    line-height: 23px;
+  }
+  .featured-city-wrapper {
+    margin: unset;
+  }
+  .all-specialist-item {
+    padding: 20px;
+  }
+  .location-flag-img {
+    width: 25px;
+  }
+  .specialist-title-wrapper p {
+    font-size: var(--mini-size);
+    color: var(--p-color);
+    line-height: 25px;
+    font-weight: 400;
+  }
+  .blog-thumb {
+    width: 100%;
+    height: 70px;
+  }
+  .list-news-box-content p {
+    font-size: var(--tiny-size);
+  }
+  .author-mini-content p {
+    display: block !important;
+    line-height: 9px;
+    font-size: var(--tiny-size);
+  }
+  .author-mini-profile figure img {
+    width: 25px;
+    height: 25px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 3px 0px lightgray;
+  }
+  .featured-right {
+    padding-bottom: 15px;
+  }
+  .featured-right .span-bold {
+    font-weight: 700;
+  }
+  .blog-item-content .excerpt-p {
+    display: none;
+  }
+  .specialist-title-wrapper h2 {
+    font-size: var(--p-size);
+    color: var(--mini-title-color);
+    font-weight: 500;
+    margin-bottom: 0px;
+    line-height: 25px;
+  }
+  .author-mini-content a p {
+    font-size: var(--mini-size) !important;
+    margin-top: 10px;
+  }
+  .toc-item ul li a {
+    font-size: var(--p-size);
+  }
+  .toc-item ul {
+    margin-top: unset;
+  }
+  .see-more {
+    justify-content: flex-start;
+  }
+  .quick-link-list-item {
+    overflow: hidden;
+    width: 100%;
+  }
+  .quick-link-body-wrapper {
+    display: flex !important;
+    flex-direction: column-reverse;
+  }
+  .quick-link-logo {
+    width: 65px;
+    height: 65px;
+    padding: 0px;
+  }
+  .types-category-wrap {
+    flex-wrap: wrap;
+  }
+  .quick-link-details h2 {
+    margin-bottom: 1px;
+  }
+  .quick-link-details p {
+    font-size: var(--tiny-size);
+    line-height: 18px;
+  }
+  .see-all-link {
+    font-size: var(--mini-size);
+  }
+  .quick-link-item {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+  }
+  .hospital-specialists-list {
+    grid-gap: 5px;
+  }
+  .specialist-item {
+    border: unset;
+  }
+  .wp-block-post-template li {
+    padding-left: unset;
+  }
+  .wp-block-post-template li .wp-block-post-featured-image img {
+    width: 40%;
+  }
+  .wp-block-columns {
+    grid-gap: 10px !important;
+    padding-top: 15px !important;
+  }
+  .filter-wrapper {
+    flex-direction: column;
+  }
+  .filter-wrapper .form-group input,
+  .filter-wrapper .form-group select {
+    width: 100%;
+  }
+  .form-group {
+    width: 100%;
+  }
+  .filter-wrapper .form-group button {
+    padding: 7px 10px;
+    margin: unset;
+    height: 38px;
+  }
+  .action-buttons .form-group {
+    width: fit-content;
+  }
+  .medicine-list-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 15px;
+    grid-gap: 8px;
+  }
+  .medicine-list-item h3 {
+    font-size: var(--p-size);
+  }
+  .medicine-list-item h3 a {
+    width: max-content;
+  }
+  .inline-dosage-icon,
+  .single-dosage-icon {
+    width: 25px;
+    margin-right: 3px;
+  }
+  .medicine-list-item .job-type-badge {
+    color: var(--brand-color);
+    font-weight: 500;
+    font-size: var(--tiny-size) !important;
+  }
+  .line-wrap strong,
+  .label-value-wrap strong,
+  .line-wrap strong {
+    font-size: var(--tiny-size);
+  }
+  .tool-list-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .tool-title {
+    padding: 15px 0px;
+    margin-bottom: 0px;
+  }
+  .tool-title h2 {
+    grid-gap: 5px;
+  }
+  .tool-item {
+    border: 1px solid #d3d3d366;
+  }
+  .doctor-list-grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 8px;
+  }
+  .col-three {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .grid.col-four {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .hero-tranding-topics {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    grid-gap: 7px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    row-gap: unset;
+  }
+  .hero-kpi-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  .right__sidebar__menu__wrapper a {
+    font-size: 15px;
+    padding: 5px 20px;
+    padding-left: 20px;
+    border-bottom: 2px solid #d3d3d34a;
+    display: block;
+    color: var(--black);
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .footer-social {
+    grid-gap: 2px !important;
+  }
+  .footer-social li {
+    padding: unset;
+  }
+  .ambulance-item h2 {
+    margin-bottom: 10px;
+    font-size: 31px;
+    font-weight: 500;
+    line-height: 45px;
+  }
+  .featured-specialist-item h2 {
+    font-weight: 500;
+  }
+  .featured-right p {
+    font-size: var(--p-size) !important;
+    display: none;
+  }
+  .featured-doctor-content li a {
+    line-height: 20px;
+  }
+  .trending-location-articles .specialist-item a {
+    font-size: var(--p-size);
+    border-bottom: 1px solid #d3d3d35c;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+  }
+  .filter-container {
+    margin-top: 10px;
+  }
+  .featured-right h2 {
+    font-size: 20px !important;
+    padding: 5px 0px;
+    font-weight: 300 !important;
+    /* margin-bottom: 7px; */
+    line-height: 20px;
+  }
+}

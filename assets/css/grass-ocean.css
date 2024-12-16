@@ -1,0 +1,94 @@
+body {
+  font-family: 'Satoshi-Variable', 'Satoshi', sans-serif !important;
+}
+
+/* text editor descriptions  
+=========================== */
+.descriptions {
+  @apply p-6 bg-white;
+}
+.descriptions table {
+  @apply mb-4 rounded-md border border-slate-300 p-2;
+}
+
+.descriptions th {
+  @apply border border-slate-300 p-2;
+}
+
+.descriptions td {
+  @apply border border-slate-300 p-2;
+}
+
+.descriptions tr {
+  @apply border border-slate-300 p-2;
+}
+
+.descriptions th {
+  @apply border border-slate-300 p-2;
+}
+.descriptions h1 {
+  @apply mb-5 text-3xl font-bold text-rose-700;
+}
+.descriptions h2 {
+  @apply mb-5 text-2xl font-bold;
+}
+.descriptions h3 {
+  @apply mb-5 text-xl font-bold;
+}
+.descriptions h4 {
+  @apply mb-4 text-lg font-bold;
+}
+.descriptions h5 {
+  @apply mb-4 text-base font-bold;
+}
+.descriptions h6 {
+  @apply mb-3 text-xs font-bold;
+}
+.descriptions p {
+  @apply mb-4 text-lg;
+}
+.descriptions ul {
+  @apply mb-4 ml-1 list-inside list-disc flex flex-col;
+}
+.descriptions ol {
+  @apply mb-4 list-inside list-decimal;
+}
+.descriptions li {
+  @apply relative inline-flex pl-5 text-base;
+}
+.descriptions li:before {
+  @apply absolute left-0 top-2 h-3 w-3 rounded bg-slate-300 content-[''];
+}
+
+.descriptions blockquote {
+  @apply mb-4 rounded-md border-l-2 border-slate-400 bg-green-100 p-5 pl-7;
+}
+.descriptions code {
+  @apply mb-4 rounded-md bg-slate-100 p-1;
+}
+.descriptions hr {
+  @apply mb-4 border-t-2 border-slate-300;
+}
+.descriptions img {
+  @apply mb-4 rounded-md;
+}
+.descriptions video {
+  @apply mb-4 rounded-md;
+}
+.descriptions iframe {
+  @apply mb-4 rounded-md;
+}
+.descriptions a {
+  @apply text-blue-500 underline;
+}
+.descriptions .ProseMirror {
+  @apply p-4;
+}
+.descriptions .ProseMirror:focus {
+  @apply outline-none;
+}
+.descriptions ul li::marker {
+  color: red;
+  font-size: 1.5em;
+}
+
